@@ -83,7 +83,7 @@
 npm install -g @anthropic-ai/claude-code
 
 # Verify installation
-claude-code --version
+claude code --version
 ```
 
 **💡 Tip:** If you don't have Node.js on Windows yet, download it from [nodejs.org](https://nodejs.org/) (LTS version recommended).
@@ -608,7 +608,7 @@ If Claude Code is already running, exit and restart it to load the new configura
 ```powershell
 # Exit current session (Ctrl+C or type 'exit')
 # Start fresh
-claude-code
+claude
 ```
 
 ### 7.2 Test MCP Tools
@@ -866,7 +866,7 @@ Get-Content $env:USERPROFILE\.claude\claude_desktop_config.json
 explorer.exe \\wsl.localhost\Ubuntu-24.04\root\n8n-mcp-server
 
 # Start Claude Code
-claude-code
+claude
 ```
 
 ---
